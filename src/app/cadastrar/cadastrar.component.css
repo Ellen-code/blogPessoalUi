@@ -1,9 +1,13 @@
 #img-bg{
-    background-image: url("https://i.imgur.com/w3d95jN.jpg");
+    background-image: url("https://i.imgur.com/ZOCZSEz.png");
 
     min-height:695px;
     
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.cor-roxo {
+    background-color: #6C3075;
 }

@@ -16,13 +16,10 @@ ul.social-network li{
 }
 
 .fa-linkedin-square:hover{
-    color: #3b5998;
+    color: #333;
 }
 
 .fa-github-square:hover{
     color: #333;
 }
 
-.cor-roxo {
-    background-color: #6C3075;
-}
