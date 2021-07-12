@@ -70,6 +70,8 @@
             <p class="card-text mt-3">{{item.texto}}</p>
             <p class="card-text"><small class="text-muted">{{item.date | date: 'dd/MM/yyyy'}} às {{item.date | date:
                 'HH:mm'}}</small></p>
+                <a [routerLink]="['/postagem-edit', item.id]" class="text-info mr-3" href="">Editar</a>
+                <a [routerLink]="['/postagem-delete', item.id]" class="text-dark" href="">Apagar</a>
           </div>
         </div>
       </div>
@@ -136,8 +138,8 @@
             </option>
           </select>
         </div>
-
       </div>
+      
       <div class="modal-footer">
         <button type="button" class="btn btn-dark" data-dismiss="modal">Cancelar</button>
         <button type="button" class="btn cor-roxo text-white" (click)='publicar()'
